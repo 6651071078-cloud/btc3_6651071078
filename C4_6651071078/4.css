@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f1f4f6;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header.center-header {
+    background-color: #e9ecef;
+    text-align: center;
+    padding: 25px 15px;
+    border-bottom: 1px solid #ced4da;
+}
+
+header.center-header h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #212529;
+    margin-bottom: 6px;
+}
+
+header.center-header h2 {
+    font-size: 15px;
+    color: #495057;
+    font-weight: normal;
+}
+
+main {
+    max-width: 960px;
+    width: 95%;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+    flex: 1;
+}
+
+.media-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.media-content h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #212529;
+}
+
+video {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    border-radius: 6px;
+    background: #000;
+}
+
+.desc-text {
+    font-size: 13.5px;
+    color: #555;
+    margin: 12px 0 20px 0;
+}
+
+.audio-item {
+    margin-bottom: 15px;
+}
+
+.audio-item p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+audio {
+    width: 100%;
+    max-width: 450px;
+    height: 38px;
+}
+
+aside.schedule-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    height: fit-content;
+}
+
+aside.schedule-box h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #212529;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13.5px;
+}
+
+table, th, td {
+    border: 1px solid #ffcc80;
+}
+
+th {
+    background-color: #fff3e0;
+    padding: 8px;
+    font-weight: bold;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(2) td {
+    background-color: #e1f5fe;
+}
+
+tr:nth-child(3) td {
+    background-color: #fff8e1;
+}
+
+footer {
+    background-color: #e9ecef;
+    padding: 12px 20px;
+    text-align: center;
+    border-top: 1px solid #ced4da;
+    margin-top: auto;
+}
+
+footer address {
+    font-style: normal;
+    font-size: 12px;
+    color: #495057;
+}
